@@ -1,12 +1,20 @@
 <?php 
 
-$nome = "Vania";
-$sexo = "F";
-$idade = 23;
+$n1 = 88;
+$n2 = 65;
+$n3 = 32;
 
-$num1 = 27;
+if ($n1 > $n2){
+    if ($n2 > $n3){
+        echo $n1.$n2.$n3
+    }else{
+        echo $n1.$n3.$n2
+    }
+}else if ($n2 < $n3) {
+    if ()
+}else if ()
 
-if ($sexo == "F" && $idade < 25 ){
+while ($sexo == "F" && $idade < 25 ){
     echo $nome.", Di Caprio ACEITA você";
 }else {
 	echo $nome.", Di Caprio NÃO ACEITA você";
