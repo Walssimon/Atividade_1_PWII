@@ -1,24 +1,30 @@
 <?php 
 
-$n1 = 88;
-$n2 = 65;
-$n3 = 32;
+$n1 = 1;
+$n2 = 3;
+$n3 = 2;
 
 if ($n1 > $n2){
-    if ($n2 > $n3){
-        echo $n1.$n2.$n3
+    if ($n1 > $n3){
+        if ($n2 > $n3){
+            echo $n1." ".$n2." ".$n3;
+         }else {
+            echo $n1." ".$n3." ".$n2;
+        }
     }else{
-        echo $n1.$n3.$n2
+        echo $n3." ".$n1." ".$n2; 
     }
-}else if ($n2 < $n3) {
-    if ()
-}else if ()
-
-while ($sexo == "F" && $idade < 25 ){
-    echo $nome.", Di Caprio ACEITA você";
 }else {
-	echo $nome.", Di Caprio NÃO ACEITA você";
-}
+    if ($n1 > $n3){
+        echo $n2." ".$n1." ".$n3;
+    }else {
+        if ($n3 > $n2){
+            echo $n3." ".$n2." ".$n1;
+        }else {
+            echo $n2." ".$n3." ".$n1;
+        }
+    }
 
- ?>
+}
+?>
 
